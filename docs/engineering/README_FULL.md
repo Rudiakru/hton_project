@@ -33,7 +33,12 @@ More detail: `COACHING_VALUE.md`.
 
 The demo pack is **6 matches** and we describe outputs as **observed tendencies in the demo dataset**, not league-wide truth.
 
-Write-up: `VALIDATION.md`.
+In-app validation (static, precomputed):
+- A tiny **manual label set** lives at `data/validation_labels.json` (2 matches × 3 obvious moments each).
+- During `scripts/build_demo_pack.py`, we compute and ship `processed/validation_summary.json` into the demo pack.
+- Demo mode exposes it via `/api/demo/validation` and the UI shows: “On 2 labeled matches, top-3 moments matched X/Y.”
+
+This is intentionally **small-sample and directional**, not a benchmark.
 
 ### Devpost-ready text (paste this)
 
@@ -59,11 +64,11 @@ Write-up: `VALIDATION.md`.
 - Demo dataset is 6 matches; confidence labels are conservative (`n=6` → LOW).
 - This demo is about reliability + evidence trails, not league-wide statistical claims.
 
-Backup demo talk-track: `DEMO_VIDEO_SCRIPT.md`.
+Backup demo talk-track: `submission_assets/Demo_Script.md`.
 
 ### Screenshots for README / Devpost (4 files)
 
-We don’t commit binary screenshots to git by default, but we provide an automated capture.
+Screenshots live at `submission_assets/screenshots/` and can be regenerated via Playwright.
 
 1) Start backend + frontend in demo mode (see “Demo mode” section below)
 
@@ -73,7 +78,7 @@ macOS/Linux:
 
 ```sh
 cd frontend
-CAPTURE_SCREENSHOTS=1 npm run e2e:capture
+CAPTURE_SCREENSHOTS=1 CAPTURE_SCREENSHOTS_DIR=../submission_assets/screenshots npm run e2e:capture
 ```
 
 Windows PowerShell:
@@ -81,15 +86,16 @@ Windows PowerShell:
 ```powershell
 cd frontend
 $env:CAPTURE_SCREENSHOTS="1"
+$env:CAPTURE_SCREENSHOTS_DIR="..\\submission_assets\\screenshots"
 npm run e2e:capture
 ```
 
 Outputs (repo root):
 
-- `screenshots/01_landing.png`
-- `screenshots/02_start_demo_evidence.png`
-- `screenshots/03_scouting_report.png`
-- `screenshots/04_verification.png`
+- `submission_assets/screenshots/01_landing.png`
+- `submission_assets/screenshots/02_start_demo_evidence.png`
+- `submission_assets/screenshots/03_scouting_report.png`
+- `submission_assets/screenshots/04_verification.png`
 
 ---
 
