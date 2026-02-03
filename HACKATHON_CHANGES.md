@@ -23,3 +23,6 @@ This document tracks the core architectural and feature work completed during th
 - **Day 2**: Pivot to Offline Demo Pack architecture to ensure judge-proof execution.
 - **Day 3**: UI refinement, integrity dashboard, and "One-Command" automation (`make demo`).
 - **Day 4**: Determinism hardening and release preparation.
+
+### 4. Final Polish & Stability
+- **UI Robustness**: Fixed match ID parsing in `EvidenceDrawer` to gracefully handle backend-generated unique suffixes (e.g., `TL-C9-G2:000002`), ensuring "Technical Details" always render cleanly for judges.

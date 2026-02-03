@@ -16,8 +16,9 @@ const EvidenceDrawer = ({ open, onClose, panel }) => {
 
   const formatMatchLabel = (matchId) => {
     if (!matchId || typeof matchId !== 'string') return '';
-    const parts = matchId.split('-');
-    if (parts.length < 3) return matchId;
+    const cleanId = matchId.split(':')[0];
+    const parts = cleanId.split('-');
+    if (parts.length < 3) return cleanId;
     const a = parts[0];
     const b = parts[1];
     const g = parts[2];
