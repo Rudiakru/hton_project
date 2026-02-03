@@ -18,18 +18,10 @@ htmlcov/
 .pyre/
 pyrightconfig.json
 
-# Virtualenv
+node_modules/
+dist/
 .venv/
 venv/
-
-# Local tooling
-.python-version
-pip-wheel-metadata/
-
-# Node
-frontend/node_modules/
-frontend/dist/
-frontend/build/
 frontend/.next/
 frontend/playwright-artifacts/
 npm-debug.log*
@@ -43,6 +35,7 @@ pnpm-debug.log*
 
 # Data artifacts
 data/processed/
+data/demo_matches/
 
 # IDE
 .idea/
@@ -57,9 +50,8 @@ Thumbs.db
 logs/
 
 # Artifacts
-artifacts/demo_pack/
-artifacts/determinism_check/
-artifacts/ci_demo/
+artifacts/
+!artifacts/ci_demo/playwright/  # if we wanted to keep something, but actually we don't
 
 # Media not for git
 submission_assets/demo_video.mp4
@@ -70,3 +62,9 @@ submission_assets/demo_video.mp4
 # Local temp/tool outputs
 .output.txt
 .cursorrules
+error
+PROJECT_STRUCTURE.md
+VERIFICATION_REPORT.md
+CHECKLIST_JUDGE_READY.md
+archive/
+*.tar.gz

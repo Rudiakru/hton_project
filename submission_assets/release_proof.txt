@@ -1,0 +1,27 @@
+Release Proof — Judge-Ready
+
+Determinism proof
+$ python scripts/verify_determinism_twice.py
+✓ Determinism verified (double-build outputs are identical)
+Work dir: artifacts\determinism_check
+
+Pack verifier
+$ python artifacts/demo_pack/verify_integrity.py --pack-root artifacts/demo_pack
+OK: All integrity checks passed
+
+Tests
+$ pytest -q
+..............................................                           [100%]
+46 passed in 5.36s
+
+Demo integrity endpoint
+GET /api/demo/integrity
+{
+    "mode":  "demo",
+    "match_count":  6,
+    "total_events":  840,
+    "total_moments":  30,
+    "total_patterns":  9,
+    "total_evidence_panels":  840,
+    "broken_refs":  0
+}

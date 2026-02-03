@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300">
+  <style>
+    .box { fill:#f7f9fc; stroke:#1f6feb; stroke-width:2; rx:8; ry:8; }
+    .label { font: 14px Arial, sans-serif; fill:#0b2239; }
+    .title { font: 16px Arial, sans-serif; font-weight:bold; fill:#0b2239; }
+    .arrow { stroke:#555; stroke-width:2; marker-end:url(#arrowhead); fill:none; }
+    .mono { font: 13px Consolas, monospace; fill:#333; }
+  </style>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#555" />
+    </marker>
+  </defs>
+
+  <!-- UI -->
+  <rect class="box" x="40" y="60" width="170" height="80" />
+  <text class="title" x="60" y="90">Frontend UI</text>
+  <text class="label" x="60" y="115">React + Vite</text>
+  <text class="mono" x="60" y="135">Start Demo</text>
+
+  <!-- API -->
+  <rect class="box" x="270" y="50" width="180" height="100" />
+  <text class="title" x="290" y="80">Backend API</text>
+  <text class="label" x="290" y="105">FastAPI (demo mode)</text>
+  <text class="mono" x="290" y="125">/api/demo/*</text>
+
+  <!-- Pack -->
+  <rect class="box" x="510" y="30" width="170" height="120" />
+  <text class="title" x="530" y="60">Frozen Demo Pack</text>
+  <text class="mono" x="530" y="85">events_store.json</text>
+  <text class="mono" x="530" y="105">moments_store.json</text>
+  <text class="mono" x="530" y="125">patterns_store.json</text>
+  <text class="mono" x="530" y="145">evidence_refs.json</text>
+
+  <!-- Integrity -->
+  <rect class="box" x="270" y="180" width="180" height="80" />
+  <text class="title" x="290" y="210">Integrity</text>
+  <text class="mono" x="290" y="235">broken_refs = 0</text>
+
+  <!-- Arrows -->
+  <line class="arrow" x1="210" y1="100" x2="270" y2="100" />
+  <line class="arrow" x1="450" y1="100" x2="510" y2="90" />
+  <line class="arrow" x1="360" y1="150" x2="360" y2="180" />
+
+  <text class="label" x="220" y="90">GET</text>
+  <text class="mono" x="220" y="110">/api/demo</text>
+  <text class="label" x="460" y="80">reads</text>
+  <text class="label" x="320" y="170">verifies</text>
+</svg>
