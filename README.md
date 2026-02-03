@@ -1,6 +1,6 @@
 # Evidence-First Assistant Coach (Offline Demo)
 
-[![Watch the 2-minute demo](https://img.shields.io/badge/Demo-Watch%20Video-red?style=for-the-badge&logo=youtube)](https://youtu.be/PENDING_UPLOAD_PLEASE_UPDATE)
+[![Watch the 2-minute demo](https://img.shields.io/badge/Demo-Watch%20Video-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=RUWHfSi8rXw)
 [**Hackathon Changes Log**](./HACKATHON_CHANGES.md)
 
 ## 1) What this is
