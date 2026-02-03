@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "sample_note": "Tiny, manual, directional validation. Two matches × three obvious moments each. This is not a statistically meaningful benchmark.",
+  "k": 3,
+  "labels": {
+    "TL-C9-G2": [
+      "TL-C9-G2:M01",
+      "TL-C9-G2:M02",
+      "TL-C9-G2:M03"
+    ],
+    "C9-100-G1": [
+      "C9-100-G1:M01",
+      "C9-100-G1:M02",
+      "C9-100-G1:M03"
+    ]
+  }
+}

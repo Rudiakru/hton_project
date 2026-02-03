@@ -1,0 +1,12 @@
+[tool.ruff]
+line-length = 100
+
+# Keep lint focused on maintained code. Archived/legacy scripts are intentionally excluded.
+exclude = [
+    ".venv",
+    ".pytest_cache",
+    "archive",
+    "frontend/node_modules",
+    "frontend/dist",
+    "frontend/build",
+]

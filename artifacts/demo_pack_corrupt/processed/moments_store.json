@@ -1,0 +1,467 @@
+{
+  "matches": {
+    "C9-100-G1": [
+      {
+        "description": "At 00:00, detected teamfight relevant to macro decision-making.",
+        "end_ts": 30,
+        "match_id": "C9-100-G1",
+        "moment_id": "C9-100-G1:M01",
+        "passes_validity_filter": true,
+        "primary_event_ref": "C9-100-G1:000002",
+        "related_event_refs": [],
+        "start_ts": 0,
+        "title": "Critical Moment",
+        "validity_reasons": [
+          "Selected from TEAMFIGHT candidates",
+          "Deterministic spacing rule applied"
+        ]
+      },
+      {
+        "description": "At 01:30, detected teamfight relevant to macro decision-making.",
+        "end_ts": 120,
+        "match_id": "C9-100-G1",
+        "moment_id": "C9-100-G1:M02",
+        "passes_validity_filter": true,
+        "primary_event_ref": "C9-100-G1:000012",
+        "related_event_refs": [],
+        "start_ts": 60,
+        "title": "Critical Moment",
+        "validity_reasons": [
+          "Selected from TEAMFIGHT candidates",
+          "Deterministic spacing rule applied"
+        ]
+      },
+      {
+        "description": "At 03:00, detected teamfight relevant to macro decision-making.",
+        "end_ts": 210,
+        "match_id": "C9-100-G1",
+        "moment_id": "C9-100-G1:M03",
+        "passes_validity_filter": true,
+        "primary_event_ref": "C9-100-G1:000023",
+        "related_event_refs": [],
+        "start_ts": 150,
+        "title": "Critical Moment",
+        "validity_reasons": [
+          "Selected from TEAMFIGHT candidates",
+          "Deterministic spacing rule applied"
+        ]
+      },
+      {
+        "description": "At 04:30, detected teamfight relevant to macro decision-making.",
+        "end_ts": 300,
+        "match_id": "C9-100-G1",
+        "moment_id": "C9-100-G1:M04",
+        "passes_validity_filter": true,
+        "primary_event_ref": "C9-100-G1:000033",
+        "related_event_refs": [],
+        "start_ts": 240,
+        "title": "Critical Moment",
+        "validity_reasons": [
+          "Selected from TEAMFIGHT candidates",
+          "Deterministic spacing rule applied"
+        ]
+      },
+      {
+        "description": "At 06:00, detected teamfight relevant to macro decision-making.",
+        "end_ts": 390,
+        "match_id": "C9-100-G1",
+        "moment_id": "C9-100-G1:M05",
+        "passes_validity_filter": true,
+        "primary_event_ref": "C9-100-G1:000044",
+        "related_event_refs": [],
+        "start_ts": 330,
+        "title": "Critical Moment",
+        "validity_reasons": [
+          "Selected from TEAMFIGHT candidates",
+          "Deterministic spacing rule applied"
+        ]
+      }
+    ],
+    "C9-100-G2": [
+      {
+        "description": "At 00:00, detected teamfight relevant to macro decision-making.",
+        "end_ts": 30,
+        "match_id": "C9-100-G2",
+        "moment_id": "C9-100-G2:M01",
+        "passes_validity_filter": true,
+        "primary_event_ref": "C9-100-G2:000002",
+        "related_event_refs": [],
+        "start_ts": 0,
+        "title": "Critical Moment",
+        "validity_reasons": [
+          "Selected from TEAMFIGHT candidates",
+          "Deterministic spacing rule applied"
+        ]
+      },
+      {
+        "description": "At 01:30, detected teamfight relevant to macro decision-making.",
+        "end_ts": 120,
+        "match_id": "C9-100-G2",
+        "moment_id": "C9-100-G2:M02",
+        "passes_validity_filter": true,
+        "primary_event_ref": "C9-100-G2:000012",
+        "related_event_refs": [],
+        "start_ts": 60,
+        "title": "Critical Moment",
+        "validity_reasons": [
+          "Selected from TEAMFIGHT candidates",
+          "Deterministic spacing rule applied"
+        ]
+      },
+      {
+        "description": "At 03:00, detected teamfight relevant to macro decision-making.",
+        "end_ts": 210,
+        "match_id": "C9-100-G2",
+        "moment_id": "C9-100-G2:M03",
+        "passes_validity_filter": true,
+        "primary_event_ref": "C9-100-G2:000023",
+        "related_event_refs": [],
+        "start_ts": 150,
+        "title": "Critical Moment",
+        "validity_reasons": [
+          "Selected from TEAMFIGHT candidates",
+          "Deterministic spacing rule applied"
+        ]
+      },
+      {
+        "description": "At 04:30, detected teamfight relevant to macro decision-making.",
+        "end_ts": 300,
+        "match_id": "C9-100-G2",
+        "moment_id": "C9-100-G2:M04",
+        "passes_validity_filter": true,
+        "primary_event_ref": "C9-100-G2:000033",
+        "related_event_refs": [],
+        "start_ts": 240,
+        "title": "Critical Moment",
+        "validity_reasons": [
+          "Selected from TEAMFIGHT candidates",
+          "Deterministic spacing rule applied"
+        ]
+      },
+      {
+        "description": "At 06:00, detected teamfight relevant to macro decision-making.",
+        "end_ts": 390,
+        "match_id": "C9-100-G2",
+        "moment_id": "C9-100-G2:M05",
+        "passes_validity_filter": true,
+        "primary_event_ref": "C9-100-G2:000044",
+        "related_event_refs": [],
+        "start_ts": 330,
+        "title": "Critical Moment",
+        "validity_reasons": [
+          "Selected from TEAMFIGHT candidates",
+          "Deterministic spacing rule applied"
+        ]
+      }
+    ],
+    "TL-100-G1": [
+      {
+        "description": "At 00:00, detected teamfight relevant to macro decision-making.",
+        "end_ts": 30,
+        "match_id": "TL-100-G1",
+        "moment_id": "TL-100-G1:M01",
+        "passes_validity_filter": true,
+        "primary_event_ref": "TL-100-G1:000002",
+        "related_event_refs": [],
+        "start_ts": 0,
+        "title": "Critical Moment",
+        "validity_reasons": [
+          "Selected from TEAMFIGHT candidates",
+          "Deterministic spacing rule applied"
+        ]
+      },
+      {
+        "description": "At 01:30, detected teamfight relevant to macro decision-making.",
+        "end_ts": 120,
+        "match_id": "TL-100-G1",
+        "moment_id": "TL-100-G1:M02",
+        "passes_validity_filter": true,
+        "primary_event_ref": "TL-100-G1:000012",
+        "related_event_refs": [],
+        "start_ts": 60,
+        "title": "Critical Moment",
+        "validity_reasons": [
+          "Selected from TEAMFIGHT candidates",
+          "Deterministic spacing rule applied"
+        ]
+      },
+      {
+        "description": "At 03:00, detected teamfight relevant to macro decision-making.",
+        "end_ts": 210,
+        "match_id": "TL-100-G1",
+        "moment_id": "TL-100-G1:M03",
+        "passes_validity_filter": true,
+        "primary_event_ref": "TL-100-G1:000023",
+        "related_event_refs": [],
+        "start_ts": 150,
+        "title": "Critical Moment",
+        "validity_reasons": [
+          "Selected from TEAMFIGHT candidates",
+          "Deterministic spacing rule applied"
+        ]
+      },
+      {
+        "description": "At 04:30, detected teamfight relevant to macro decision-making.",
+        "end_ts": 300,
+        "match_id": "TL-100-G1",
+        "moment_id": "TL-100-G1:M04",
+        "passes_validity_filter": true,
+        "primary_event_ref": "TL-100-G1:000033",
+        "related_event_refs": [],
+        "start_ts": 240,
+        "title": "Critical Moment",
+        "validity_reasons": [
+          "Selected from TEAMFIGHT candidates",
+          "Deterministic spacing rule applied"
+        ]
+      },
+      {
+        "description": "At 06:00, detected teamfight relevant to macro decision-making.",
+        "end_ts": 390,
+        "match_id": "TL-100-G1",
+        "moment_id": "TL-100-G1:M05",
+        "passes_validity_filter": true,
+        "primary_event_ref": "TL-100-G1:000044",
+        "related_event_refs": [],
+        "start_ts": 330,
+        "title": "Critical Moment",
+        "validity_reasons": [
+          "Selected from TEAMFIGHT candidates",
+          "Deterministic spacing rule applied"
+        ]
+      }
+    ],
+    "TL-100-G2": [
+      {
+        "description": "At 00:00, detected teamfight relevant to macro decision-making.",
+        "end_ts": 30,
+        "match_id": "TL-100-G2",
+        "moment_id": "TL-100-G2:M01",
+        "passes_validity_filter": true,
+        "primary_event_ref": "TL-100-G2:000002",
+        "related_event_refs": [],
+        "start_ts": 0,
+        "title": "Critical Moment",
+        "validity_reasons": [
+          "Selected from TEAMFIGHT candidates",
+          "Deterministic spacing rule applied"
+        ]
+      },
+      {
+        "description": "At 01:30, detected teamfight relevant to macro decision-making.",
+        "end_ts": 120,
+        "match_id": "TL-100-G2",
+        "moment_id": "TL-100-G2:M02",
+        "passes_validity_filter": true,
+        "primary_event_ref": "TL-100-G2:000012",
+        "related_event_refs": [],
+        "start_ts": 60,
+        "title": "Critical Moment",
+        "validity_reasons": [
+          "Selected from TEAMFIGHT candidates",
+          "Deterministic spacing rule applied"
+        ]
+      },
+      {
+        "description": "At 03:00, detected teamfight relevant to macro decision-making.",
+        "end_ts": 210,
+        "match_id": "TL-100-G2",
+        "moment_id": "TL-100-G2:M03",
+        "passes_validity_filter": true,
+        "primary_event_ref": "TL-100-G2:000023",
+        "related_event_refs": [],
+        "start_ts": 150,
+        "title": "Critical Moment",
+        "validity_reasons": [
+          "Selected from TEAMFIGHT candidates",
+          "Deterministic spacing rule applied"
+        ]
+      },
+      {
+        "description": "At 04:30, detected teamfight relevant to macro decision-making.",
+        "end_ts": 300,
+        "match_id": "TL-100-G2",
+        "moment_id": "TL-100-G2:M04",
+        "passes_validity_filter": true,
+        "primary_event_ref": "TL-100-G2:000033",
+        "related_event_refs": [],
+        "start_ts": 240,
+        "title": "Critical Moment",
+        "validity_reasons": [
+          "Selected from TEAMFIGHT candidates",
+          "Deterministic spacing rule applied"
+        ]
+      },
+      {
+        "description": "At 06:00, detected teamfight relevant to macro decision-making.",
+        "end_ts": 390,
+        "match_id": "TL-100-G2",
+        "moment_id": "TL-100-G2:M05",
+        "passes_validity_filter": true,
+        "primary_event_ref": "TL-100-G2:000044",
+        "related_event_refs": [],
+        "start_ts": 330,
+        "title": "Critical Moment",
+        "validity_reasons": [
+          "Selected from TEAMFIGHT candidates",
+          "Deterministic spacing rule applied"
+        ]
+      }
+    ],
+    "TL-C9-G2": [
+      {
+        "description": "At 00:00, detected teamfight relevant to macro decision-making.",
+        "end_ts": 30,
+        "match_id": "TL-C9-G2",
+        "moment_id": "TL-C9-G2:M01",
+        "passes_validity_filter": true,
+        "primary_event_ref": "TL-C9-G2:000002",
+        "related_event_refs": [],
+        "start_ts": 0,
+        "title": "Critical Moment",
+        "validity_reasons": [
+          "Selected from TEAMFIGHT candidates",
+          "Deterministic spacing rule applied"
+        ]
+      },
+      {
+        "description": "At 01:30, detected teamfight relevant to macro decision-making.",
+        "end_ts": 120,
+        "match_id": "TL-C9-G2",
+        "moment_id": "TL-C9-G2:M02",
+        "passes_validity_filter": true,
+        "primary_event_ref": "TL-C9-G2:000012",
+        "related_event_refs": [],
+        "start_ts": 60,
+        "title": "Critical Moment",
+        "validity_reasons": [
+          "Selected from TEAMFIGHT candidates",
+          "Deterministic spacing rule applied"
+        ]
+      },
+      {
+        "description": "At 03:00, detected teamfight relevant to macro decision-making.",
+        "end_ts": 210,
+        "match_id": "TL-C9-G2",
+        "moment_id": "TL-C9-G2:M03",
+        "passes_validity_filter": true,
+        "primary_event_ref": "TL-C9-G2:000023",
+        "related_event_refs": [],
+        "start_ts": 150,
+        "title": "Critical Moment",
+        "validity_reasons": [
+          "Selected from TEAMFIGHT candidates",
+          "Deterministic spacing rule applied"
+        ]
+      },
+      {
+        "description": "At 04:30, detected teamfight relevant to macro decision-making.",
+        "end_ts": 300,
+        "match_id": "TL-C9-G2",
+        "moment_id": "TL-C9-G2:M04",
+        "passes_validity_filter": true,
+        "primary_event_ref": "TL-C9-G2:000033",
+        "related_event_refs": [],
+        "start_ts": 240,
+        "title": "Critical Moment",
+        "validity_reasons": [
+          "Selected from TEAMFIGHT candidates",
+          "Deterministic spacing rule applied"
+        ]
+      },
+      {
+        "description": "At 06:00, detected teamfight relevant to macro decision-making.",
+        "end_ts": 390,
+        "match_id": "TL-C9-G2",
+        "moment_id": "TL-C9-G2:M05",
+        "passes_validity_filter": true,
+        "primary_event_ref": "TL-C9-G2:000044",
+        "related_event_refs": [],
+        "start_ts": 330,
+        "title": "Critical Moment",
+        "validity_reasons": [
+          "Selected from TEAMFIGHT candidates",
+          "Deterministic spacing rule applied"
+        ]
+      }
+    ],
+    "TL-C9-G3": [
+      {
+        "description": "At 00:00, detected teamfight relevant to macro decision-making.",
+        "end_ts": 30,
+        "match_id": "TL-C9-G3",
+        "moment_id": "TL-C9-G3:M01",
+        "passes_validity_filter": true,
+        "primary_event_ref": "TL-C9-G3:000002",
+        "related_event_refs": [],
+        "start_ts": 0,
+        "title": "Critical Moment",
+        "validity_reasons": [
+          "Selected from TEAMFIGHT candidates",
+          "Deterministic spacing rule applied"
+        ]
+      },
+      {
+        "description": "At 01:30, detected teamfight relevant to macro decision-making.",
+        "end_ts": 120,
+        "match_id": "TL-C9-G3",
+        "moment_id": "TL-C9-G3:M02",
+        "passes_validity_filter": true,
+        "primary_event_ref": "TL-C9-G3:000012",
+        "related_event_refs": [],
+        "start_ts": 60,
+        "title": "Critical Moment",
+        "validity_reasons": [
+          "Selected from TEAMFIGHT candidates",
+          "Deterministic spacing rule applied"
+        ]
+      },
+      {
+        "description": "At 03:00, detected teamfight relevant to macro decision-making.",
+        "end_ts": 210,
+        "match_id": "TL-C9-G3",
+        "moment_id": "TL-C9-G3:M03",
+        "passes_validity_filter": true,
+        "primary_event_ref": "TL-C9-G3:000023",
+        "related_event_refs": [],
+        "start_ts": 150,
+        "title": "Critical Moment",
+        "validity_reasons": [
+          "Selected from TEAMFIGHT candidates",
+          "Deterministic spacing rule applied"
+        ]
+      },
+      {
+        "description": "At 04:30, detected teamfight relevant to macro decision-making.",
+        "end_ts": 300,
+        "match_id": "TL-C9-G3",
+        "moment_id": "TL-C9-G3:M04",
+        "passes_validity_filter": true,
+        "primary_event_ref": "TL-C9-G3:000033",
+        "related_event_refs": [],
+        "start_ts": 240,
+        "title": "Critical Moment",
+        "validity_reasons": [
+          "Selected from TEAMFIGHT candidates",
+          "Deterministic spacing rule applied"
+        ]
+      },
+      {
+        "description": "At 06:00, detected teamfight relevant to macro decision-making.",
+        "end_ts": 390,
+        "match_id": "TL-C9-G3",
+        "moment_id": "TL-C9-G3:M05",
+        "passes_validity_filter": true,
+        "primary_event_ref": "TL-C9-G3:000044",
+        "related_event_refs": [],
+        "start_ts": 330,
+        "title": "Critical Moment",
+        "validity_reasons": [
+          "Selected from TEAMFIGHT candidates",
+          "Deterministic spacing rule applied"
+        ]
+      }
+    ]
+  },
+  "version": 1
+}

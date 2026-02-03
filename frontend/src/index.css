@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-950 text-gray-100 antialiased;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    margin: 0;
+    min-width: 320px;
+    min-height: 100vh;
+  }
+
+  /* Ensure Tailwind's `font-mono` maps to JetBrains Mono when available */
+  .font-mono {
+    font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+      "Courier New", monospace;
+  }
+}
+
+@layer components {
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 4px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-gray-700 rounded-full hover:bg-blue-500/50 transition-colors;
+  }
+}
+
+#root {
+  width: 100%;
+}
+
+/* Custom Animations */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-4px); }
+  75% { transform: translateX(4px); }
+}
+
+.animate-shake {
+  animation: shake 0.4s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+/* Recharts Customization */
+.recharts-cartesian-grid-horizontal line,
+.recharts-cartesian-grid-vertical line {
+  stroke-opacity: 0.1;
+}
+
+.recharts-tooltip-cursor {
+  stroke: #3b82f6;
+  stroke-width: 2;
+  stroke-dasharray: 5 5;
+}
+
+/* Esports Aesthetic */
+.glass-panel {
+  @apply bg-gray-900/40 backdrop-blur-xl border border-white/5 shadow-2xl;
+}
+
+.neon-text-blue {
+  text-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
+}
+
+.neon-border-blue {
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.2);
+}

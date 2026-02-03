@@ -1,0 +1,22 @@
+# Demo Pack Benchmarks (offline, build-time)
+
+- Source: `synthetic`
+- Pack build (bench stage) time: `0 ms`
+- Integrity: `True`
+
+## Endpoint latencies (ms)
+
+- `/api/demo/analyze-moment`: `0.0`
+- `/api/demo/health`: `0.0`
+- `/api/demo/integrity`: `0.0`
+- `/api/demo/matches`: `0.0`
+- `/api/demo/scout-team`: `0.0`
+- `/api/demo/show-moments`: `0.0`
+- `/api/demo/teams`: `0.0`
+
+## Determinism hashes (sha256)
+
+- `events_store.json`: `9e6eae1b263c5d0a77e5063549db4254bf34bd4cb2dc6c74586164faddeb60db`
+- `evidence_refs.json`: `7abc90618373e84efdf8d0020b90888d84c2b7baf483a2bad82bddfd9bcf2b71`
+- `moments_store.json`: `d28b495c2229c583f964d2be02c26a41fb6606e17fdca388180ecec1c1ed69e0`
+- `patterns_store.json`: `9b1bd656abe6166491f2e6d70f9d4f473874d51e83ab2bbf4eadf6f6cda2d2cd`

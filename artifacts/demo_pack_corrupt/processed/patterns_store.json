@@ -1,0 +1,482 @@
+{
+  "patterns": [
+    {
+      "confidence_level": "low",
+      "description": "Team stabilizes after a high-variance sequence.",
+      "frequency": 0.2,
+      "instances": [
+        {
+          "evidence_refs": [
+            "C9-100-G1:000002"
+          ],
+          "match_id": "C9-100-G1",
+          "note": "Derived from moment C9-100-G1:M01"
+        },
+        {
+          "evidence_refs": [
+            "C9-100-G2:000002"
+          ],
+          "match_id": "C9-100-G2",
+          "note": "Derived from moment C9-100-G2:M01"
+        },
+        {
+          "evidence_refs": [
+            "TL-100-G1:000002"
+          ],
+          "match_id": "TL-100-G1",
+          "note": "Derived from moment TL-100-G1:M01"
+        },
+        {
+          "evidence_refs": [
+            "TL-100-G2:000002"
+          ],
+          "match_id": "TL-100-G2",
+          "note": "Derived from moment TL-100-G2:M01"
+        },
+        {
+          "evidence_refs": [
+            "TL-C9-G2:000002"
+          ],
+          "match_id": "TL-C9-G2",
+          "note": "Derived from moment TL-C9-G2:M01"
+        },
+        {
+          "evidence_refs": [
+            "TL-C9-G3:000002"
+          ],
+          "match_id": "TL-C9-G3",
+          "note": "Derived from moment TL-C9-G3:M01"
+        }
+      ],
+      "label": "Tempo Reset",
+      "pattern_id": "100:tempo_reset",
+      "sample_size": 6,
+      "team_id": "100"
+    },
+    {
+      "confidence_level": "low",
+      "description": "Team positions earlier around major objectives.",
+      "frequency": 0.35,
+      "instances": [
+        {
+          "evidence_refs": [
+            "C9-100-G1:000012"
+          ],
+          "match_id": "C9-100-G1",
+          "note": "Derived from moment C9-100-G1:M02"
+        },
+        {
+          "evidence_refs": [
+            "C9-100-G2:000012"
+          ],
+          "match_id": "C9-100-G2",
+          "note": "Derived from moment C9-100-G2:M02"
+        },
+        {
+          "evidence_refs": [
+            "TL-100-G1:000012"
+          ],
+          "match_id": "TL-100-G1",
+          "note": "Derived from moment TL-100-G1:M02"
+        },
+        {
+          "evidence_refs": [
+            "TL-100-G2:000012"
+          ],
+          "match_id": "TL-100-G2",
+          "note": "Derived from moment TL-100-G2:M02"
+        },
+        {
+          "evidence_refs": [
+            "TL-C9-G2:000012"
+          ],
+          "match_id": "TL-C9-G2",
+          "note": "Derived from moment TL-C9-G2:M02"
+        },
+        {
+          "evidence_refs": [
+            "TL-C9-G3:000012"
+          ],
+          "match_id": "TL-C9-G3",
+          "note": "Derived from moment TL-C9-G3:M02"
+        }
+      ],
+      "label": "Objective Setup",
+      "pattern_id": "100:objective_setup",
+      "sample_size": 6,
+      "team_id": "100"
+    },
+    {
+      "confidence_level": "low",
+      "description": "Team enters river with higher contest risk.",
+      "frequency": 0.5,
+      "instances": [
+        {
+          "evidence_refs": [
+            "C9-100-G1:000023"
+          ],
+          "match_id": "C9-100-G1",
+          "note": "Derived from moment C9-100-G1:M03"
+        },
+        {
+          "evidence_refs": [
+            "C9-100-G2:000023"
+          ],
+          "match_id": "C9-100-G2",
+          "note": "Derived from moment C9-100-G2:M03"
+        },
+        {
+          "evidence_refs": [
+            "TL-100-G1:000023"
+          ],
+          "match_id": "TL-100-G1",
+          "note": "Derived from moment TL-100-G1:M03"
+        },
+        {
+          "evidence_refs": [
+            "TL-100-G2:000023"
+          ],
+          "match_id": "TL-100-G2",
+          "note": "Derived from moment TL-100-G2:M03"
+        },
+        {
+          "evidence_refs": [
+            "TL-C9-G2:000023"
+          ],
+          "match_id": "TL-C9-G2",
+          "note": "Derived from moment TL-C9-G2:M03"
+        },
+        {
+          "evidence_refs": [
+            "TL-C9-G3:000023"
+          ],
+          "match_id": "TL-C9-G3",
+          "note": "Derived from moment TL-C9-G3:M03"
+        }
+      ],
+      "label": "River Risk",
+      "pattern_id": "100:river_risk",
+      "sample_size": 6,
+      "team_id": "100"
+    },
+    {
+      "confidence_level": "low",
+      "description": "Team stabilizes after a high-variance sequence.",
+      "frequency": 0.2,
+      "instances": [
+        {
+          "evidence_refs": [
+            "C9-100-G1:000002"
+          ],
+          "match_id": "C9-100-G1",
+          "note": "Derived from moment C9-100-G1:M01"
+        },
+        {
+          "evidence_refs": [
+            "C9-100-G2:000002"
+          ],
+          "match_id": "C9-100-G2",
+          "note": "Derived from moment C9-100-G2:M01"
+        },
+        {
+          "evidence_refs": [
+            "TL-100-G1:000002"
+          ],
+          "match_id": "TL-100-G1",
+          "note": "Derived from moment TL-100-G1:M01"
+        },
+        {
+          "evidence_refs": [
+            "TL-100-G2:000002"
+          ],
+          "match_id": "TL-100-G2",
+          "note": "Derived from moment TL-100-G2:M01"
+        },
+        {
+          "evidence_refs": [
+            "TL-C9-G2:000002"
+          ],
+          "match_id": "TL-C9-G2",
+          "note": "Derived from moment TL-C9-G2:M01"
+        },
+        {
+          "evidence_refs": [
+            "TL-C9-G3:000002"
+          ],
+          "match_id": "TL-C9-G3",
+          "note": "Derived from moment TL-C9-G3:M01"
+        }
+      ],
+      "label": "Tempo Reset",
+      "pattern_id": "C9:tempo_reset",
+      "sample_size": 6,
+      "team_id": "C9"
+    },
+    {
+      "confidence_level": "low",
+      "description": "Team positions earlier around major objectives.",
+      "frequency": 0.35,
+      "instances": [
+        {
+          "evidence_refs": [
+            "C9-100-G1:000012"
+          ],
+          "match_id": "C9-100-G1",
+          "note": "Derived from moment C9-100-G1:M02"
+        },
+        {
+          "evidence_refs": [
+            "C9-100-G2:000012"
+          ],
+          "match_id": "C9-100-G2",
+          "note": "Derived from moment C9-100-G2:M02"
+        },
+        {
+          "evidence_refs": [
+            "TL-100-G1:000012"
+          ],
+          "match_id": "TL-100-G1",
+          "note": "Derived from moment TL-100-G1:M02"
+        },
+        {
+          "evidence_refs": [
+            "TL-100-G2:000012"
+          ],
+          "match_id": "TL-100-G2",
+          "note": "Derived from moment TL-100-G2:M02"
+        },
+        {
+          "evidence_refs": [
+            "TL-C9-G2:000012"
+          ],
+          "match_id": "TL-C9-G2",
+          "note": "Derived from moment TL-C9-G2:M02"
+        },
+        {
+          "evidence_refs": [
+            "TL-C9-G3:000012"
+          ],
+          "match_id": "TL-C9-G3",
+          "note": "Derived from moment TL-C9-G3:M02"
+        }
+      ],
+      "label": "Objective Setup",
+      "pattern_id": "C9:objective_setup",
+      "sample_size": 6,
+      "team_id": "C9"
+    },
+    {
+      "confidence_level": "low",
+      "description": "Team enters river with higher contest risk.",
+      "frequency": 0.5,
+      "instances": [
+        {
+          "evidence_refs": [
+            "C9-100-G1:000023"
+          ],
+          "match_id": "C9-100-G1",
+          "note": "Derived from moment C9-100-G1:M03"
+        },
+        {
+          "evidence_refs": [
+            "C9-100-G2:000023"
+          ],
+          "match_id": "C9-100-G2",
+          "note": "Derived from moment C9-100-G2:M03"
+        },
+        {
+          "evidence_refs": [
+            "TL-100-G1:000023"
+          ],
+          "match_id": "TL-100-G1",
+          "note": "Derived from moment TL-100-G1:M03"
+        },
+        {
+          "evidence_refs": [
+            "TL-100-G2:000023"
+          ],
+          "match_id": "TL-100-G2",
+          "note": "Derived from moment TL-100-G2:M03"
+        },
+        {
+          "evidence_refs": [
+            "TL-C9-G2:000023"
+          ],
+          "match_id": "TL-C9-G2",
+          "note": "Derived from moment TL-C9-G2:M03"
+        },
+        {
+          "evidence_refs": [
+            "TL-C9-G3:000023"
+          ],
+          "match_id": "TL-C9-G3",
+          "note": "Derived from moment TL-C9-G3:M03"
+        }
+      ],
+      "label": "River Risk",
+      "pattern_id": "C9:river_risk",
+      "sample_size": 6,
+      "team_id": "C9"
+    },
+    {
+      "confidence_level": "low",
+      "description": "Team stabilizes after a high-variance sequence.",
+      "frequency": 0.2,
+      "instances": [
+        {
+          "evidence_refs": [
+            "C9-100-G1:000002"
+          ],
+          "match_id": "C9-100-G1",
+          "note": "Derived from moment C9-100-G1:M01"
+        },
+        {
+          "evidence_refs": [
+            "C9-100-G2:000002"
+          ],
+          "match_id": "C9-100-G2",
+          "note": "Derived from moment C9-100-G2:M01"
+        },
+        {
+          "evidence_refs": [
+            "TL-100-G1:000002"
+          ],
+          "match_id": "TL-100-G1",
+          "note": "Derived from moment TL-100-G1:M01"
+        },
+        {
+          "evidence_refs": [
+            "TL-100-G2:000002"
+          ],
+          "match_id": "TL-100-G2",
+          "note": "Derived from moment TL-100-G2:M01"
+        },
+        {
+          "evidence_refs": [
+            "TL-C9-G2:000002"
+          ],
+          "match_id": "TL-C9-G2",
+          "note": "Derived from moment TL-C9-G2:M01"
+        },
+        {
+          "evidence_refs": [
+            "TL-C9-G3:000002"
+          ],
+          "match_id": "TL-C9-G3",
+          "note": "Derived from moment TL-C9-G3:M01"
+        }
+      ],
+      "label": "Tempo Reset",
+      "pattern_id": "TL:tempo_reset",
+      "sample_size": 6,
+      "team_id": "TL"
+    },
+    {
+      "confidence_level": "low",
+      "description": "Team positions earlier around major objectives.",
+      "frequency": 0.35,
+      "instances": [
+        {
+          "evidence_refs": [
+            "C9-100-G1:000012"
+          ],
+          "match_id": "C9-100-G1",
+          "note": "Derived from moment C9-100-G1:M02"
+        },
+        {
+          "evidence_refs": [
+            "C9-100-G2:000012"
+          ],
+          "match_id": "C9-100-G2",
+          "note": "Derived from moment C9-100-G2:M02"
+        },
+        {
+          "evidence_refs": [
+            "TL-100-G1:000012"
+          ],
+          "match_id": "TL-100-G1",
+          "note": "Derived from moment TL-100-G1:M02"
+        },
+        {
+          "evidence_refs": [
+            "TL-100-G2:000012"
+          ],
+          "match_id": "TL-100-G2",
+          "note": "Derived from moment TL-100-G2:M02"
+        },
+        {
+          "evidence_refs": [
+            "TL-C9-G2:000012"
+          ],
+          "match_id": "TL-C9-G2",
+          "note": "Derived from moment TL-C9-G2:M02"
+        },
+        {
+          "evidence_refs": [
+            "TL-C9-G3:000012"
+          ],
+          "match_id": "TL-C9-G3",
+          "note": "Derived from moment TL-C9-G3:M02"
+        }
+      ],
+      "label": "Objective Setup",
+      "pattern_id": "TL:objective_setup",
+      "sample_size": 6,
+      "team_id": "TL"
+    },
+    {
+      "confidence_level": "low",
+      "description": "Team enters river with higher contest risk.",
+      "frequency": 0.5,
+      "instances": [
+        {
+          "evidence_refs": [
+            "C9-100-G1:000023"
+          ],
+          "match_id": "C9-100-G1",
+          "note": "Derived from moment C9-100-G1:M03"
+        },
+        {
+          "evidence_refs": [
+            "C9-100-G2:000023"
+          ],
+          "match_id": "C9-100-G2",
+          "note": "Derived from moment C9-100-G2:M03"
+        },
+        {
+          "evidence_refs": [
+            "TL-100-G1:000023"
+          ],
+          "match_id": "TL-100-G1",
+          "note": "Derived from moment TL-100-G1:M03"
+        },
+        {
+          "evidence_refs": [
+            "TL-100-G2:000023"
+          ],
+          "match_id": "TL-100-G2",
+          "note": "Derived from moment TL-100-G2:M03"
+        },
+        {
+          "evidence_refs": [
+            "TL-C9-G2:000023"
+          ],
+          "match_id": "TL-C9-G2",
+          "note": "Derived from moment TL-C9-G2:M03"
+        },
+        {
+          "evidence_refs": [
+            "TL-C9-G3:000023"
+          ],
+          "match_id": "TL-C9-G3",
+          "note": "Derived from moment TL-C9-G3:M03"
+        }
+      ],
+      "label": "River Risk",
+      "pattern_id": "TL:river_risk",
+      "sample_size": 6,
+      "team_id": "TL"
+    }
+  ],
+  "version": 1
+}

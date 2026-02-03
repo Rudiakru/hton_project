@@ -1,0 +1,101 @@
+{
+  "data": {
+    "seriesState": {
+      "id": "2692648",
+      "games": [
+        {
+          "teams": [
+            {
+              "players": [
+                {
+                  "id": "28552",
+                  "name": "FNC Wunder",
+                  "position": {
+                    "x": 12906.0,
+                    "y": 13644.0
+                  }
+                },
+                {
+                  "id": "22117",
+                  "name": "Jankos",
+                  "position": {
+                    "x": 13182.0,
+                    "y": 13693.0
+                  }
+                },
+                {
+                  "id": "21542",
+                  "name": "Zwyroo",
+                  "position": {
+                    "x": 13372.0,
+                    "y": 13861.0
+                  }
+                },
+                {
+                  "id": "28555",
+                  "name": "TH Flakked",
+                  "position": {
+                    "x": 13546.0,
+                    "y": 13560.0
+                  }
+                },
+                {
+                  "id": "22338",
+                  "name": "Trymbi",
+                  "position": {
+                    "x": 12901.0,
+                    "y": 13418.0
+                  }
+                }
+              ]
+            },
+            {
+              "players": [
+                {
+                  "id": "24052",
+                  "name": "Th3Antonio",
+                  "position": {
+                    "x": 12135.0,
+                    "y": 9540.0
+                  }
+                },
+                {
+                  "id": "22716",
+                  "name": "Juhan",
+                  "position": {
+                    "x": 13372.0,
+                    "y": 10842.0
+                  }
+                },
+                {
+                  "id": "21155",
+                  "name": "Jackies",
+                  "position": {
+                    "x": 12936.0,
+                    "y": 13056.0
+                  }
+                },
+                {
+                  "id": "21366",
+                  "name": "Patrik",
+                  "position": {
+                    "x": 14657.0,
+                    "y": 14517.0
+                  }
+                },
+                {
+                  "id": "25365",
+                  "name": "IgNar",
+                  "position": {
+                    "x": 14274.0,
+                    "y": 14508.0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
